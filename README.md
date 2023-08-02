@@ -1,5 +1,14 @@
 # turnkeylinux-apps-test-18
  
+## drupal10 **BROKEN**
+* Versions: Drupal 10.x (as of today) / TurnKey Linux 18RC1***
+* Repository: https://github.com/UncleDan/drupal10/tree/18-update-UncleDan
+* Test version: *not uploaded*
+* Pull request: https://github.com/turnkeylinux-apps/drupal9/pull/7
+* Bugs/Notes: Broken, some Drupal extensions seem to require PHP8.1 and lamp81 is broken (maybe add SURY repo solves!?)
+* Date: 2 Aug 2023
+* Forum post: -
+---
 ## joomla4
 * Versions: Joomla 4.2.9 (as of today) / TurnKey Linux 18RC1
 * Repository: https://github.com/UncleDan/joomla4/tree/18-update-UncleDan

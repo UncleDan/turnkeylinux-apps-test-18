@@ -61,14 +61,13 @@
 * Bugs/Notes: Seems to work. You tell me.
 * Date: 1 Aug 2023
 * Forum post: https://www.turnkeylinux.org/forum/general/tue-20230801-1413/espocrm-755-18rc1-test-update
----
+-----
 ## suitecrm
-* Repository: https://github.com/UncleDan/suitecrm/tree/18-update-UncleDan
+* Status: Builds OK. Login OK.
 * Pull request: https://github.com/turnkeylinux-apps/suitecrm/pull/13
-* Test version: https://github.com/UncleDan/suitecrm/releases/tag/v18rc1-bookworm_beta_2023-07-31_14-24UTC
-* Bugs/Notes: fixed thanks @JedMeister who made a new pull request https://github.com/turnkeylinux-apps/suitecrm/pull/14
-* Date: 1 Aug 2023
-* Forum post: https://www.turnkeylinux.org/forum/general/fri-20230728-1038/suitecrm-831-tkl18rc1-build-error-255
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/suitecrm.git
+* Bugs/Notes: fixed thanks @JedMeister who made a new pull request. UncleDan pull request merges JedMeiste fixes.
+* Date: 3 Aug 2023
 -----
 ### MEMO
 mkdir -p /mybuilds

@@ -53,13 +53,13 @@
 * Bugs/Notes: Seems to work: I could login and install CRM
 * Date: 1 Aug 2023
 * Forum post: https://www.turnkeylinux.org/forum/general/tue-20230801-1824/odoo-16-18rc1-test-update
----
+-----
 ## espocrm
-* Repository: https://github.com/UncleDan/espocrm/tree/18-update-UncleDan
+* Status: Builds OK. Login OK.
 * Pull request: https://github.com/turnkeylinux-apps/espocrm/pull/22
-* Test version: https://github.com/UncleDan/espocrm/releases/tag/v18rc1-bookworm_beta_20...
-* Bugs/Notes: Seems to work. You tell me.
-* Date: 1 Aug 2023
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/espocrm.git
+* Bugs/Notes: -
+* Date: 2 Aug 2023
 * Forum post: https://www.turnkeylinux.org/forum/general/tue-20230801-1413/espocrm-755-18rc1-test-update
 -----
 ## suitecrm

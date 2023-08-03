@@ -63,8 +63,13 @@ tags
 * Date: 3 Aug 2023
 -----
 #### MEMO
+```
 mkdir -p /mybuilds
 cd products/${PRODUCTNAME}
 mv build/product.iso /mybuilds/turnkey-$(basename $(pwd))-18rc1-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
+```
 
-Copy of this in repository: ``
+Copy of this in repository:
+```
+https://github.com/UncleDan/turnkeylinux-apps-test-18
+```

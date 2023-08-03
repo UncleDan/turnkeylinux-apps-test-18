@@ -72,9 +72,9 @@
 ### MEMO
 mkdir -p /mybuilds
 cd products/
-cat > move_build <<EOF 
+cat > move-build <<EOF 
 #!/bin/bash
 mv build/product.iso /mybuilds/turnkey-$(basename $(pwd))-18rc1-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
 EOF
-chmod +x move_build
+chmod +x move-build
 history -c

@@ -8,6 +8,14 @@ tags
 * "content management/wiki"
 * "content management/media"
 
+### ghost
+* Status: Builds OK. Login OK.
+* Versions: Ghost 5.57.3 (as of today) / TurnKey Linux 18RC1
+* Pull request: https://github.com/turnkeylinux-apps/ghost/pull/19
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/ghost.git
+* Bugs/Notes: -
+* Date: 3 Aug 2023
+-----
 ### concrete-cms
 * Status: Builds OK. Login OK.
 * Versions: Concrete CMS 9.2.1 / TurnKey Linux 18RC1

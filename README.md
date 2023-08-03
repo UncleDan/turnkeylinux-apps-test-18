@@ -11,7 +11,7 @@ tags
 ### \*BUG\* gnusocial
 * Status: Builds OK. PHP error on boot
 * Versions: GNU Social x.y.z (as of today) / TurnKey Linux 18RC1
-* Pull request: ?
+* Pull request: https://github.com/turnkeylinux-apps/gnusocial/pull/25
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/gnusocial.git
 * Bugs/Notes: "mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given" on start page - maybe PHP version issue? Code is quite old.
 * Date: 3 Aug 2023

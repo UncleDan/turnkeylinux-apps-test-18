@@ -9,11 +9,11 @@ tags
 * "content management/media"
 
 ### ghost
-* Status: Builds OK. Login OK.
+* Status: Builds OK. Runs OK. Login?
 * Versions: Ghost 5.57.3 (as of today) / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/ghost/pull/19
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/ghost.git
-* Bugs/Notes: -
+* Bugs/Notes: I couldn't figure out how to login.
 * Date: 3 Aug 2023
 -----
 ### concrete-cms

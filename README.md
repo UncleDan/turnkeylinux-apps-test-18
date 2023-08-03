@@ -2,7 +2,7 @@
 
 ## Priority
 tags
-* "content management/blogging"
+* ~~"content management/blogging"~~ *done*
 * "content management/education"
 * "content management/ecommerce"
 * "content management/wiki"

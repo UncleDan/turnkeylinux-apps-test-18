@@ -69,3 +69,7 @@
 * Bugs/Notes: fixed thanks @JedMeister who made a new pull request https://github.com/turnkeylinux-apps/suitecrm/pull/14
 * Date: 1 Aug 2023
 * Forum post: https://www.turnkeylinux.org/forum/general/fri-20230728-1038/suitecrm-831-tkl18rc1-build-error-255
+-----
+### MEMO
+mkdir -p /mybuilds
+mv build/product.iso /mybuilds/turnkey-$(basename $(pwd))-18rc1-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso

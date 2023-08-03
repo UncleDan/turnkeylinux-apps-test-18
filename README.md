@@ -13,7 +13,7 @@ tags
 * Versions: Canvas x.y.z (as of today) / TurnKey Linux 18RC1
 * Pull request: -
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/canvas.git
-* Bugs/Notes: "Unable to locate package libssl1.1" - maybe it depends on Ruby bit I think it is not updated yet
+* Bugs/Notes: "Unable to locate package libssl1.1" - maybe it depends on Ruby but I think it is not updated yet
 * Date: 3 Aug 2023
 ```
 update-initramfs: Generating /boot/initrd.img-6.1.0-10-amd64

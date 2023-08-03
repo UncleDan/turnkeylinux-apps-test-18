@@ -1,8 +1,15 @@
 # turnkeylinux-apps-test-18
 
-## Priority: tags "content management|blogging" "content management|education" "content management|ecommerce" "content management|wiki" "content management|media"
+## Priority
+tags
+* "content management/blogging"
+* "content management/education"
+* "content management/ecommerce"
+* "content management/wiki"
+* "content management/media"
 
 ### concrete-cms
+* Status: Builds OK. Login OK.
 * Versions: Concrete CMS 9.2.1 / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/concrete-cms/pull/24
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/concrete-cms.git

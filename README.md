@@ -4,8 +4,8 @@
 tags
 * ~~"content management/blogging"~~ *done*
 * ~~"content management/education"~~ *done*
-* "content management/ecommerce"
 * "content management/wiki"
+* "content management/ecommerce"
 * "content management/media"
 
 ### bookstack
@@ -15,6 +15,7 @@ tags
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/bookstack.git
 * Bugs/Notes: -
 * Date: 4 Aug 2023
+-----
 ### \*BROKEN\* moinmoin
 * Status: Does NOT build.
 * Versions: MoinMoin 2.6.11 (stale from 2014) / TurnKey Linux 18RC1

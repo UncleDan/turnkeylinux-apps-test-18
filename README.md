@@ -8,6 +8,14 @@ tags
 * "content management/wiki"
 * "content management/media"
 
+### \*BROKEN\* moinmoin
+* Status: Does NOT build.
+* Versions: MoinMoin 2.6.11 (stale from 2014) / TurnKey Linux 18RC1
+* Pull request: https://github.com/turnkeylinux-apps/moinmoin/pull/13
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/moinmoin.git
+* Bugs/Notes: Very old software. Seems that "libapache2-mod-wsgi python-flup python-moinmoin" are not recognized in Python3.
+* Date: 4 Aug 2023
+-----
 ### dokuwiki
 * Status: Builds OK. Login OK.
 * Versions: DokuWiki Release 2023-04-04a "Jack Jackrum" (as of today) / TurnKey Linux 18RC1

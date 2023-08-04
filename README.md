@@ -3,11 +3,29 @@
 ## Priority
 tags
 * ~~"content management/blogging"~~ *done*
+* "content management/wiki"
 * "content management/education"
 * "content management/ecommerce"
-* "content management/wiki"
 * "content management/media"
 
+### \*BROKEN\* mahara
+* Status: Does NOT build
+* Versions: Mahara 21.10.5 / TurnKey Linux 18RC1
+* Pull request: https://github.com/turnkeylinux-apps/mahara/pull/17
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/mahara.git
+* Bugs/Notes: Couldn't build either 22.04.3 or 21.10.5. PHP8 issue? No more community edition after 22.04.x.
+* Date: 4 Aug 2023
+```
+PHP Fatal error:  During inheritance of Iterator: Uncaught ArgumentCountError: Too few arguments to function error(), 4 passed in /var/www/mahara/lib/adodb/adodb.inc.php on line 3424 and exactly 5 expected in /var/www/mahara/lib/errors.php:474
+Stack trace:
+#0 /var/www/mahara/lib/adodb/adodb.inc.php(3424): error()
+#1 /var/www/mahara/init.php(120): require('...')
+#2 /var/www/mahara/admin/cli/install.php(19): require('...')
+#3 {main} in /var/www/mahara/lib/adodb/adodb.inc.php on line 3424
+make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 255
+```
+
+-----
 ### \*BROKEN\* canvas
 * Status: Does NOT build.
 * Versions: Canvas x.y.z (as of today) / TurnKey Linux 18RC1

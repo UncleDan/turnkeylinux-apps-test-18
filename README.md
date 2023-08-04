@@ -9,8 +9,8 @@ tags
 * "content management/media"
 
 ### dokuwiki
-* Versions: DokuWiki Release 2023-04-04a "Jack Jackrum" / TurnKey Linux 18RC1
 * Status: Builds OK. Login OK.
+* Versions: DokuWiki Release 2023-04-04a "Jack Jackrum" (as of today) / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/dokuwiki/pull/21
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/dokuwiki.git
 * Bugs/Notes: -
@@ -18,6 +18,7 @@ tags
 -----
 #### mediawiki
 * Status: Builds OK. Login OK.
+* Versions: MediaWiki 1.40.0 / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/mediawiki/pull/18
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/mediawiki.git
 * Bugs/Notes: -
@@ -25,6 +26,7 @@ tags
 -----
 ### omeka
 * Status: Builds OK. Login OK.
+* Versions: Omeka 3.1.1 / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/omeka/pull/20
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/omeka.git
 * Bugs/Notes: -

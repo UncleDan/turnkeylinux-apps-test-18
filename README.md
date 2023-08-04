@@ -8,6 +8,13 @@ tags
 * "content management/wiki"
 * "content management/media"
 
+### mediawiki
+* Status: Builds OK. Login OK.
+* Pull request: https://github.com/turnkeylinux-apps/mediawiki/pull/18
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/mediawiki.git
+* Bugs/Notes: -
+* Date: 4 Aug 2023
+-----
 ### omeka
 * Status: Builds OK. Login OK.
 * Pull request: https://github.com/turnkeylinux-apps/omeka/pull/20

@@ -8,6 +8,13 @@ tags
 * "content management/wiki"
 * "content management/media"
 
+### bookstack
+* Status: Builds OK. Login OK.
+* Versions: BookStack v23.06.2 (as of today) / TurnKey Linux 18RC1
+* Pull request: https://github.com/turnkeylinux-apps/bookstack/pull/3
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/bookstack.git
+* Bugs/Notes: -
+* Date: 4 Aug 2023
 ### \*BROKEN\* moinmoin
 * Status: Does NOT build.
 * Versions: MoinMoin 2.6.11 (stale from 2014) / TurnKey Linux 18RC1

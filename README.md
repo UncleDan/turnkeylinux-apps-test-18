@@ -3,11 +3,18 @@
 ## Priority
 tags
 * ~~"content management/blogging"~~ *done*
-* "content management/wiki"
-* "content management/education"
+* ~~"content management/education"~~ *done*
 * "content management/ecommerce"
+* "content management/wiki"
 * "content management/media"
 
+### omeka
+* Status: Builds OK. Login OK.
+* Pull request: https://github.com/turnkeylinux-apps/omeka/pull/20
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/omeka.git
+* Bugs/Notes: -
+* Date: 4 Aug 2023
+-----
 ### \*BROKEN\* mahara
 * Status: Does NOT build
 * Versions: Mahara 21.10.5 / TurnKey Linux 18RC1

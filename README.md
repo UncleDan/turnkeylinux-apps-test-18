@@ -8,7 +8,15 @@ tags
 * "content management/wiki"
 * "content management/media"
 
-### mediawiki
+### dokuwiki
+* Versions: DokuWiki Release 2023-04-04a "Jack Jackrum" / TurnKey Linux 18RC1
+* Status: Builds OK. Login OK.
+* Pull request: https://github.com/turnkeylinux-apps/dokuwiki/pull/21
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/dokuwiki.git
+* Bugs/Notes: -
+* Date: 4 Aug 2023
+-----
+#### mediawiki
 * Status: Builds OK. Login OK.
 * Pull request: https://github.com/turnkeylinux-apps/mediawiki/pull/18
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/mediawiki.git

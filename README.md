@@ -9,7 +9,7 @@ tags
 * "content management/media"
 
 ### \*BROKEN\* drupal10
-* Status: Builds OK. Login OK.
+* Status: Does NOT build.
 * Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/drupal9/pull/7
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/drupal10.git

@@ -115,7 +115,7 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 * Bugs/Notes: -
 * Date: 4 Aug 2023
 -----
-### /*BROKEN*/ mahara
+### \*BROKEN\* mahara
 * Status: Build OK. Error on the page.
 * Versions: Mahara 22.10.0 / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/mahara/pull/17
@@ -126,6 +126,7 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 Mahara: Site Unavailable
 CSS files are not present in your htdocs/theme/raw/style directory. If you are running Mahara from a git checkout, run "make css" to build the CSS files. If you are running Mahara from a ZIP download, try downloading and unzipping again.
 ```
+
 -----
 ### \*BROKEN\* canvas
 * Status: Does NOT build.

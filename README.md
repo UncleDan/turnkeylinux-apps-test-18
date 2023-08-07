@@ -115,23 +115,17 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 * Bugs/Notes: -
 * Date: 4 Aug 2023
 -----
-### \*BROKEN\* mahara
-* Status: Does NOT build
-* Versions: Mahara 21.10.5 / TurnKey Linux 18RC1
+### /*BROKEN*/ mahara
+* Status: Build OK. Error on the page.
+* Versions: Mahara 22.10.0 / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/mahara/pull/17
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/mahara.git
-* Bugs/Notes: Couldn't build either 22.04.3 or 21.10.5. PHP8 issue? No more community edition after 22.04.x.
-* Date: 4 Aug 2023
+* Bugs/Notes: Thanks @OnGle for the hint on the version.
+* Date: 7 Aug 2023
 ```
-PHP Fatal error:  During inheritance of Iterator: Uncaught ArgumentCountError: Too few arguments to function error(), 4 passed in /var/www/mahara/lib/adodb/adodb.inc.php on line 3424 and exactly 5 expected in /var/www/mahara/lib/errors.php:474
-Stack trace:
-#0 /var/www/mahara/lib/adodb/adodb.inc.php(3424): error()
-#1 /var/www/mahara/init.php(120): require('...')
-#2 /var/www/mahara/admin/cli/install.php(19): require('...')
-#3 {main} in /var/www/mahara/lib/adodb/adodb.inc.php on line 3424
-make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 255
+Mahara: Site Unavailable
+CSS files are not present in your htdocs/theme/raw/style directory. If you are running Mahara from a git checkout, run "make css" to build the CSS files. If you are running Mahara from a ZIP download, try downloading and unzipping again.
 ```
-
 -----
 ### \*BROKEN\* canvas
 * Status: Does NOT build.
@@ -164,7 +158,7 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 ```
 
 -----
-### \*BUG\* gnusocial
+### \*BROKEN\* gnusocial
 * Status: Builds OK. PHP error on boot
 * Versions: GNU Social x.y.z (as of today) / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/gnusocial/pull/25
@@ -236,9 +230,7 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 -----
 #### MEMO
 ```
-mkdir -p /mybuilds
-cd products/${PRODUCTNAME}
-mv build/product.iso /mybuilds/turnkey-$(basename $(pwd))-18rc1-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
+mkdir -p /mybuilds ; mv build/product.iso /mybuilds/turnkey-$(basename $(pwd))-18rc1-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
 ```
 
 Copy of this in repository:

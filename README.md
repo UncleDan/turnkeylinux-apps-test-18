@@ -13,67 +13,8 @@ tags
 * Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/drupal9/pull/7
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/drupal10.git
-* Bugs/Notes: PHP 8.1 needed and no luck in installing it
-* Date: 5 Aug 2023
-```
-Setting up linux-image-6.1.0-10-amd64 (6.1.38-2) ...
-I: /vmlinuz.old is now a symlink to boot/vmlinuz-6.1.0-10-amd64
-I: /initrd.img.old is now a symlink to boot/initrd.img-6.1.0-10-amd64
-I: /vmlinuz is now a symlink to boot/vmlinuz-6.1.0-10-amd64
-I: /initrd.img is now a symlink to boot/initrd.img-6.1.0-10-amd64
-/etc/kernel/postinst.d/initramfs-tools:
-update-initramfs: Generating /boot/initrd.img-6.1.0-10-amd64
-W: No zstd in /usr/bin:/sbin:/bin, using gzip
-Setting up linux-image-amd64 (6.1.38-2) ...
-Reading package lists... Done
-Building dependency tree... Done
-Reading state information... Done
-E: Unable to locate package libapache2-mod-php8.1
-E: Couldn't find any package by glob 'libapache2-mod-php8.1'
-E: Couldn't find any package by regex 'libapache2-mod-php8.1'
-E: Unable to locate package php8.1-mysql
-E: Couldn't find any package by glob 'php8.1-mysql'
-E: Couldn't find any package by regex 'php8.1-mysql'
-E: Unable to locate package php8.1-curl
-E: Couldn't find any package by glob 'php8.1-curl'
-E: Couldn't find any package by regex 'php8.1-curl'
-E: Unable to locate package php8.1-xml
-E: Couldn't find any package by glob 'php8.1-xml'
-E: Couldn't find any package by regex 'php8.1-xml'
-E: Unable to locate package php8.1-gd
-E: Couldn't find any package by glob 'php8.1-gd'
-E: Couldn't find any package by regex 'php8.1-gd'
-E: Unable to locate package php8.1-ssh2
-E: Couldn't find any package by glob 'php8.1-ssh2'
-E: Couldn't find any package by regex 'php8.1-ssh2'
-E: Unable to locate package php8.1-mbstring
-E: Couldn't find any package by glob 'php8.1-mbstring'
-E: Couldn't find any package by regex 'php8.1-mbstring'
-E: Unable to locate package php8.1-readline
-E: Couldn't find any package by glob 'php8.1-readline'
-E: Couldn't find any package by regex 'php8.1-readline'
-E: Unable to locate package php8.1-uploadprogress
-E: Couldn't find any package by glob 'php8.1-uploadprogress'
-E: Couldn't find any package by regex 'php8.1-uploadprogress'
-E: Unable to locate package php8.1-cli
-E: Couldn't find any package by glob 'php8.1-cli'
-E: Couldn't find any package by regex 'php8.1-cli'
-E: Unable to locate package php8.1-zip
-E: Couldn't find any package by glob 'php8.1-zip'
-E: Couldn't find any package by regex 'php8.1-zip'
-Traceback (most recent call last):
-  File "/usr/bin/fab-install", line 608, in <module>
-    cmd_install(
-  File "/usr/bin/fab-install", line 247, in cmd_install
-    installer.install(packages, ignore_errors)
-  File "/usr/lib/python3.11/dist-packages/fablib/installer.py", line 334, in tall
-    self._install(packages, ignore_errors)
-  File "/usr/lib/python3.11/dist-packages/fablib/installer.py", line 185, in stall
-    raise Error(
-fablib.installer.Error: Errors encountered installing packages
-make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
-```
-
+* Bugs/Notes: Problem seems to be in "the turnkey-drush wrapper/helper script". I will leave this, too hard for me 😅 https://www.turnkeylinux.org/comment/55282#comment-55282
+* Date: 7 Aug 2023
 -----
 ### bookstack
 * Status: Builds OK. Login OK.
@@ -99,7 +40,7 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 * Bugs/Notes: -
 * Date: 4 Aug 2023
 -----
-#### mediawiki
+### mediawiki
 * Status: Builds OK. Login OK.
 * Versions: MediaWiki 1.40.0 / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/mediawiki/pull/18
@@ -120,7 +61,7 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 * Versions: Mahara 22.10.0 / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/mahara/pull/17
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/mahara.git
-* Bugs/Notes: Thanks @OnGle for the hint on the version.
+* Bugs/Notes: Thanks @OnGle for the hint on the version. Still issues after installation
 * Date: 7 Aug 2023
 ```
 Mahara: Site Unavailable

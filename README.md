@@ -8,6 +8,14 @@ tags
 * "content management/ecommerce"
 * "content management/media"
 
+### foswiki
+* Status: Builds OK. Login OK.
+* Versions: Foswiki 2.1.8 (as of today) / TurnKey Linux 18RC1
+* Pull request: https://github.com/turnkeylinux-apps/foswiki/pull/7
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/foswiki.git
+* Bugs/Notes: -
+* Date: 7 Aug 2023
+-----
 ### \*BROKEN\* drupal10
 * Status: Does NOT build.
 * Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18RC1

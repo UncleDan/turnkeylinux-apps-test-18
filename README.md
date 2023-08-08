@@ -8,6 +8,50 @@ tags
 * "content management/ecommerce"
 * "content management/media"
 
+### \*BROKEN\* redmine
+* Status: Does NOT build.
+* Versions: Redmine 5.0.5 / TurnKey Linux 18RC1
+* Pull request: https://github.com/turnkeylinux-apps/redmine/pull/26
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-redmine.git
+* Bugs/Notes: Broken. See error below.
+* Date: 8 Aug 2023
+```
++ echo 'RBY_VER not set - falling back to latest stable Ruby'
+RBY_VER not set - falling back to latest stable Ruby
++ RBY_VER=-l
+++ nproc
++ MAKE_OPTS=-j2
++ RUBY_CONFIGURE_OPTS=--disable-install-doc
++ rbenv install -l
++ local command
++ command=install
++ '[' 2 -gt 0 ']'
++ shift
++ case "$command" in
++ command rbenv install -l
+3.0.6
+3.1.4
+3.2.2
+jruby-9.4.3.0
+mruby-3.2.0
+picoruby-3.0.0
+truffleruby-23.0.0
+truffleruby+graalvm-23.0.0
+
+Only latest stable releases for each Ruby implementation are shown.
+Use 'rbenv install --list-all / -L' to show all local versions.
++ rbenv global -l
++ local command
++ command=global
++ '[' 2 -gt 0 ']'
++ shift
++ case "$command" in
++ command rbenv global -l
+rbenv: version `-l' not installed
+make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
+```
+
+-----
 ### wordpress @OnGle
 * Status: Builds OK. Login OK.
 * Versions: WordPress 6.2.2 (as of today) / TurnKey Linux 18RC1

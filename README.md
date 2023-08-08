@@ -8,6 +8,13 @@ tags
 * "content management/ecommerce"
 * "content management/media"
 
+### vtigercrm
+* Status: ALPHA
+* Pull request: -
+* Git command: git clone https://github.com/UncleDan/turnkey-vtiger.git
+* Bugs/Notes: -
+* Date: 8 Aug 2023
+-----
 ### \*BROKEN\* redmine
 * Status: Does NOT build.
 * Versions: Redmine 5.0.5 / TurnKey Linux 18RC1

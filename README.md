@@ -8,6 +8,14 @@ tags
 * "content management/ecommerce"
 * "content management/media"
 
+### wordpress @OnGle
+* Status: Builds OK. Login OK.
+* Versions: WordPress 6.2.2 (as of today) / TurnKey Linux 18RC1
+* Pull request: https://github.com/OnGle/wordpress/pull/1
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-wordpress.git
+* Bugs/Notes: -
+* Date: 8 Aug 2023
+-----
 ### foswiki
 * Status: Builds OK. Login OK.
 * Versions: Foswiki 2.1.8 (as of today) / TurnKey Linux 18RC1
@@ -64,18 +72,13 @@ tags
 * Bugs/Notes: -
 * Date: 4 Aug 2023
 -----
-### \*BROKEN\* mahara
-* Status: Build OK. Error on the page.
+### mahara
+* Status: Build OK. Login OK.
 * Versions: Mahara 22.10.0 / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/mahara/pull/17
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/mahara.git
 * Bugs/Notes: Thanks @OnGle for the hint on the version. Still issues after installation
-* Date: 7 Aug 2023
-```
-Mahara: Site Unavailable
-CSS files are not present in your htdocs/theme/raw/style directory. If you are running Mahara from a git checkout, run "make css" to build the CSS files. If you are running Mahara from a ZIP download, try downloading and unzipping again.
-```
-
+* Date: 8 Aug 2023
 -----
 ### \*BROKEN\* canvas
 * Status: Does NOT build.
@@ -180,7 +183,7 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 -----
 #### MEMO
 ```
-mkdir -p /mybuilds ; mv build/product.iso /mybuilds/turnkey-$(basename $(pwd))-18rc1-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
+mkdir -p /mybuilds ; mv build/product.iso /mybuilds/$(basename $(pwd))-18rc1-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
 ```
 
 Copy of this in repository:

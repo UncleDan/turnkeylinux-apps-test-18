@@ -8,10 +8,10 @@ tags
 * "content management/ecommerce"
 * "content management/media"
 
-### vtigercrm
+### \*ABANDONED\* vtigercrm
 * Status: ALPHA
 * Pull request: -
-* Git command: git clone https://github.com/UncleDan/turnkey-vtiger.git
+* Git command: git clone https://github.com/UncleDan/turnkey-vtigercrm.git
 * Bugs/Notes: -
 * Date: 8 Aug 2023
 -----

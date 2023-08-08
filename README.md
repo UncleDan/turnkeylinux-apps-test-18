@@ -8,6 +8,13 @@ tags
 * "content management/ecommerce"
 * "content management/media"
 
+### \*BUG\* gitea
+* Status: Builds OK. Runs OK. Login for admin?
+* Versions: Gitea 1.20.2 (as of today) / TurnKey Linux 18RC1
+* Pull request: https://github.com/turnkeylinux-apps/gitea/pull/10
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-gitea.git
+* Bugs/Notes: Works out of the box. I could create a user and push commits, but I could not login as "admin"
+* Date: 8 Aug 2023
 ### \*ABANDONED\* vtigercrm
 * Status: ALPHA
 * Pull request: -

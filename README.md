@@ -128,12 +128,12 @@
 * Date: 2 Aug 2023
 -----
 ### \*BROKEN\* canvas
-~~* Status: Does NOT build.~~
-~~* Versions: Canvas x.y.z (as of today) / TurnKey Linux 18RC1~~
-~~* Pull request: -~~
-~~* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/canvas.git~~
-~~* Bugs/Notes: "Unable to locate package libssl1.1" - maybe it depends on Ruby but I think it is not updated yet~~
-~~* Date: 3 Aug 2023~~
+* Status: Does NOT build.
+* Versions: Canvas x.y.z (as of today) / TurnKey Linux 18RC1
+* Pull request: -
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/canvas.git
+* Bugs/Notes: "Unable to locate package libssl1.1" - maybe it depends on Ruby but I think it is not updated yet
+* Date: 3 Aug 2023
 ```
 update-initramfs: Generating /boot/initrd.img-6.1.0-10-amd64
 W: No zstd in /usr/bin:/sbin:/bin, using gzip
@@ -160,29 +160,29 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 -----
 ### \*BROKEN\* drupal10
 (supersed by https://github.com/turnkeylinux-apps/drupal10/pull/9 already merged)
-~~* Status: Does NOT build.~~
-~~* Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18RC1~~
-~~* Pull request: https://github.com/turnkeylinux-apps/drupal9/pull/7~~
-~~* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/drupal10.git~~
-~~* Bugs/Notes: Problem seems to be in "the turnkey-drush wrapper/helper script". I will leave this, too hard for me 😅 https://www.turnkeylinux.org/comment/55282#comment-55282~~
+* Status: Does NOT build.
+* Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18RC1
+* Pull request: https://github.com/turnkeylinux-apps/drupal9/pull/7
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/drupal10.git
+* Bugs/Notes: Problem seems to be in "the turnkey-drush wrapper/helper script". I will leave this, too hard for me 😅 https://www.turnkeylinux.org/comment/55282#comment-55282
 
-~~* Date: 7 Aug 2023~~
+* Date: 7 Aug 2023
 -----
 ### \*BROKEN\* gnusocial
-~~* Status: Builds OK. PHP error on boot~~
-~~* Versions: GNU Social x.y.z (as of today) / TurnKey Linux 18RC1~~
-~~* Pull request: https://github.com/turnkeylinux-apps/gnusocial/pull/25~~
-~~* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/gnusocial.git~~
-~~* Bugs/Notes: "mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given" on start page - maybe PHP version issue? Code is quite old.~~
-~~* Date: 3 Aug 2023~~
+* Status: Builds OK. PHP error on boot
+* Versions: GNU Social x.y.z (as of today) / TurnKey Linux 18RC1
+* Pull request: https://github.com/turnkeylinux-apps/gnusocial/pull/25
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/gnusocial.git
+* Bugs/Notes: "mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given" on start page - maybe PHP version issue? Code is quite old.
+* Date: 3 Aug 2023
 -----
 ### \*BROKEN\* moinmoin
-~~* Status: Does NOT build.~~
-~~* Versions: MoinMoin 2.6.11 (stale from 2014) / TurnKey Linux 18RC1~~
-~~* Pull request: https://github.com/turnkeylinux-apps/moinmoin/pull/13~~
-~~* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/moinmoin.git~~
-~~* Bugs/Notes: Very old software. Seems that "libapache2-mod-wsgi python-flup python-moinmoin" are not recognized in Python3.~~
-~~* Date: 4 Aug 2023~~
+* Status: Does NOT build.
+* Versions: MoinMoin 2.6.11 (stale from 2014) / TurnKey Linux 18RC1
+* Pull request: https://github.com/turnkeylinux-apps/moinmoin/pull/13
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/moinmoin.git
+* Bugs/Notes: Very old software. Seems that "libapache2-mod-wsgi python-flup python-moinmoin" are not recognized in Python3.
+* Date: 4 Aug 2023
 -----
 ### \*BROKEN\* redmine
 * Status: Does NOT build.

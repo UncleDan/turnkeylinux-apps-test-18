@@ -1,14 +1,5 @@
 # turnkeylinux-apps-test-18
 
-## Priority
-tags
-* ~~"content management/blogging"~~ *done*
-* ~~"content management/education"~~ *done*
-* ~~"content management/wiki"~~ *done*
-* "content management/ecommerce"
-* "content management/media"
- 
------
 ### suitecrm
 * Status: Builds OK. Login OK.
 * Versions: SuiteCRM 8.4 / TurnKey Linux 18
@@ -24,57 +15,6 @@ tags
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-gitea.git
 * Bugs/Notes: Works out of the box. I could create a user and push commits, but I could not login as "admin"
 * Date: 8 Aug 2023
------ 
-### \*ABANDONED\* vtigercrm
-* Status: ALPHA
-* Pull request: -
-* Git command: git clone https://github.com/UncleDan/turnkey-vtigercrm.git
-* Bugs/Notes: -
-* Date: 8 Aug 2023
------
-### \*BROKEN\* redmine
-* Status: Does NOT build.
-* Versions: Redmine 5.0.5 / TurnKey Linux 18RC1
-* Pull request: https://github.com/turnkeylinux-apps/redmine/pull/26
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-redmine.git
-* Bugs/Notes: Broken. See error below.
-* Date: 8 Aug 2023
-```
-+ echo 'RBY_VER not set - falling back to latest stable Ruby'
-RBY_VER not set - falling back to latest stable Ruby
-+ RBY_VER=-l
-++ nproc
-+ MAKE_OPTS=-j2
-+ RUBY_CONFIGURE_OPTS=--disable-install-doc
-+ rbenv install -l
-+ local command
-+ command=install
-+ '[' 2 -gt 0 ']'
-+ shift
-+ case "$command" in
-+ command rbenv install -l
-3.0.6
-3.1.4
-3.2.2
-jruby-9.4.3.0
-mruby-3.2.0
-picoruby-3.0.0
-truffleruby-23.0.0
-truffleruby+graalvm-23.0.0
-
-Only latest stable releases for each Ruby implementation are shown.
-Use 'rbenv install --list-all / -L' to show all local versions.
-+ rbenv global -l
-+ local command
-+ command=global
-+ '[' 2 -gt 0 ']'
-+ shift
-+ case "$command" in
-+ command rbenv global -l
-rbenv: version `-l' not installed
-make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
-```
-
 -----
 ### wordpress @OnGle
 * Status: Builds OK. Login OK.
@@ -92,28 +32,12 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 * Bugs/Notes: -
 * Date: 7 Aug 2023
 -----
-### \*BROKEN\* drupal10
-* Status: Does NOT build.
-* Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18RC1
-* Pull request: https://github.com/turnkeylinux-apps/drupal9/pull/7
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/drupal10.git
-* Bugs/Notes: Problem seems to be in "the turnkey-drush wrapper/helper script". I will leave this, too hard for me 😅 https://www.turnkeylinux.org/comment/55282#comment-55282
-* Date: 7 Aug 2023
------
 ### bookstack
 * Status: Builds OK. Login OK.
 * Versions: BookStack v23.06.2 (as of today) / TurnKey Linux 18RC1
 * Pull request: https://github.com/turnkeylinux-apps/bookstack/pull/3
 * Git command: 
 * Bugs/Notes: -git clone --branch 18-update-UncleDan https://github.com/UncleDan/bookstack.git
-* Date: 4 Aug 2023
------
-### \*BROKEN\* moinmoin
-* Status: Does NOT build.
-* Versions: MoinMoin 2.6.11 (stale from 2014) / TurnKey Linux 18RC1
-* Pull request: https://github.com/turnkeylinux-apps/moinmoin/pull/13
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/moinmoin.git
-* Bugs/Notes: Very old software. Seems that "libapache2-mod-wsgi python-flup python-moinmoin" are not recognized in Python3.
 * Date: 4 Aug 2023
 -----
 ### dokuwiki
@@ -147,45 +71,6 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/mahara.git
 * Bugs/Notes: Thanks @OnGle for the hint on the version. Still issues after installation
 * Date: 8 Aug 2023
------
-### \*BROKEN\* canvas
-* Status: Does NOT build.
-* Versions: Canvas x.y.z (as of today) / TurnKey Linux 18RC1
-* Pull request: -
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/canvas.git
-* Bugs/Notes: "Unable to locate package libssl1.1" - maybe it depends on Ruby but I think it is not updated yet
-* Date: 3 Aug 2023
-```
-update-initramfs: Generating /boot/initrd.img-6.1.0-10-amd64
-W: No zstd in /usr/bin:/sbin:/bin, using gzip
-Setting up linux-image-amd64 (6.1.38-2) ...
-Reading package lists... Done
-Building dependency tree... Done
-Reading state information... Done
-E: Unable to locate package libssl1.1
-E: Couldn't find any package by glob 'libssl1.1'
-E: Couldn't find any package by regex 'libssl1.1'
-Traceback (most recent call last):
-  File "/usr/bin/fab-install", line 608, in <module>
-    cmd_install(
-  File "/usr/bin/fab-install", line 247, in cmd_install
-    installer.install(packages, ignore_errors)
-  File "/usr/lib/python3.11/dist-packages/fablib/installer.py", line 334, in install
-    self._install(packages, ignore_errors)
-  File "/usr/lib/python3.11/dist-packages/fablib/installer.py", line 185, in _install
-    raise Error(
-fablib.installer.Error: Errors encountered installing packages
-make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
-```
-
------
-### \*BROKEN\* gnusocial
-* Status: Builds OK. PHP error on boot
-* Versions: GNU Social x.y.z (as of today) / TurnKey Linux 18RC1
-* Pull request: https://github.com/turnkeylinux-apps/gnusocial/pull/25
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/gnusocial.git
-* Bugs/Notes: "mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given" on start page - maybe PHP version issue? Code is quite old.
-* Date: 3 Aug 2023
 -----
 ### \*BUG\* ghost
 * Status: Builds OK. Runs OK. Login?
@@ -241,6 +126,112 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/espocrm.git
 * Bugs/Notes: -
 * Date: 2 Aug 2023
+-----
+### \*BROKEN\* canvas
+~~* Status: Does NOT build.~~
+~~* Versions: Canvas x.y.z (as of today) / TurnKey Linux 18RC1~~
+~~* Pull request: -~~
+~~* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/canvas.git~~
+~~* Bugs/Notes: "Unable to locate package libssl1.1" - maybe it depends on Ruby but I think it is not updated yet~~
+~~* Date: 3 Aug 2023~~
+```
+update-initramfs: Generating /boot/initrd.img-6.1.0-10-amd64
+W: No zstd in /usr/bin:/sbin:/bin, using gzip
+Setting up linux-image-amd64 (6.1.38-2) ...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package libssl1.1
+E: Couldn't find any package by glob 'libssl1.1'
+E: Couldn't find any package by regex 'libssl1.1'
+Traceback (most recent call last):
+  File "/usr/bin/fab-install", line 608, in <module>
+    cmd_install(
+  File "/usr/bin/fab-install", line 247, in cmd_install
+    installer.install(packages, ignore_errors)
+  File "/usr/lib/python3.11/dist-packages/fablib/installer.py", line 334, in install
+    self._install(packages, ignore_errors)
+  File "/usr/lib/python3.11/dist-packages/fablib/installer.py", line 185, in _install
+    raise Error(
+fablib.installer.Error: Errors encountered installing packages
+make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
+```
+
+-----
+### \*BROKEN\* drupal10 (supersed by https://github.com/turnkeylinux-apps/drupal10/pull/9 already merged)
+~~* Status: Does NOT build.~~
+~~* Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18RC1~~
+~~* Pull request: https://github.com/turnkeylinux-apps/drupal9/pull/7~~
+~~* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/drupal10.git~~
+~~* Bugs/Notes: Problem seems to be in "the turnkey-drush wrapper/helper script". I will leave this, too hard for me 😅 https://www.turnkeylinux.org/comment/55282#comment-55282~~
+~~* Date: 7 Aug 2023~~
+-----
+### \*BROKEN\* gnusocial
+~~* Status: Builds OK. PHP error on boot~~
+~~* Versions: GNU Social x.y.z (as of today) / TurnKey Linux 18RC1~~
+~~* Pull request: https://github.com/turnkeylinux-apps/gnusocial/pull/25~~
+~~* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/gnusocial.git~~
+~~* Bugs/Notes: "mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given" on start page - maybe PHP version issue? Code is quite old.~~
+~~* Date: 3 Aug 2023~~
+-----
+### \*BROKEN\* moinmoin
+~~* Status: Does NOT build.~~
+~~* Versions: MoinMoin 2.6.11 (stale from 2014) / TurnKey Linux 18RC1~~
+~~* Pull request: https://github.com/turnkeylinux-apps/moinmoin/pull/13~~
+~~* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/moinmoin.git~~
+~~* Bugs/Notes: Very old software. Seems that "libapache2-mod-wsgi python-flup python-moinmoin" are not recognized in Python3.~~
+~~* Date: 4 Aug 2023~~
+-----
+### \*BROKEN\* redmine
+~~* Status: Does NOT build.~~
+~~* Versions: Redmine 5.0.5 / TurnKey Linux 18RC1~~
+~~* Pull request: https://github.com/turnkeylinux-apps/redmine/pull/26~~
+v* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-redmine.git~~
+~~* Bugs/Notes: Broken. See error below.~~
+~~* Date: 8 Aug 2023~~
+```
++ echo 'RBY_VER not set - falling back to latest stable Ruby'
+RBY_VER not set - falling back to latest stable Ruby
++ RBY_VER=-l
+++ nproc
++ MAKE_OPTS=-j2
++ RUBY_CONFIGURE_OPTS=--disable-install-doc
++ rbenv install -l
++ local command
++ command=install
++ '[' 2 -gt 0 ']'
++ shift
++ case "$command" in
++ command rbenv install -l
+3.0.6
+3.1.4
+3.2.2
+jruby-9.4.3.0
+mruby-3.2.0
+picoruby-3.0.0
+truffleruby-23.0.0
+truffleruby+graalvm-23.0.0
+
+Only latest stable releases for each Ruby implementation are shown.
+Use 'rbenv install --list-all / -L' to show all local versions.
++ rbenv global -l
++ local command
++ command=global
++ '[' 2 -gt 0 ']'
++ shift
++ case "$command" in
++ command rbenv global -l
+rbenv: version `-l' not installed
+make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
+```
+
+----- 
+### \*ABANDONED\* vtigercrm
+~~* Status: ALPHA~~
+~~* Pull request: -~~
+~~* Git command: git clone https://github.com/UncleDan/turnkey-vtigercrm.git~~
+~~* Bugs/Notes: -~~
+~~* Date: 8 Aug 2023~~
 -----
 #### MEMO
 ```

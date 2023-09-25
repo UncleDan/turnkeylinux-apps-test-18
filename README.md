@@ -158,12 +158,14 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 ```
 
 -----
-### \*BROKEN\* drupal10 (supersed by https://github.com/turnkeylinux-apps/drupal10/pull/9 already merged)
+### \*BROKEN\* drupal10
+(supersed by https://github.com/turnkeylinux-apps/drupal10/pull/9 already merged)
 ~~* Status: Does NOT build.~~
 ~~* Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18RC1~~
 ~~* Pull request: https://github.com/turnkeylinux-apps/drupal9/pull/7~~
 ~~* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/drupal10.git~~
 ~~* Bugs/Notes: Problem seems to be in "the turnkey-drush wrapper/helper script". I will leave this, too hard for me 😅 https://www.turnkeylinux.org/comment/55282#comment-55282~~
+
 ~~* Date: 7 Aug 2023~~
 -----
 ### \*BROKEN\* gnusocial
@@ -183,12 +185,12 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 ~~* Date: 4 Aug 2023~~
 -----
 ### \*BROKEN\* redmine
-~~* Status: Does NOT build.~~
-~~* Versions: Redmine 5.0.5 / TurnKey Linux 18RC1~~
-~~* Pull request: https://github.com/turnkeylinux-apps/redmine/pull/26~~
-v* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-redmine.git~~
-~~* Bugs/Notes: Broken. See error below.~~
-~~* Date: 8 Aug 2023~~
+* Status: Does NOT build.
+* Versions: Redmine 5.0.5 / TurnKey Linux 18RC1
+* Pull request: https://github.com/turnkeylinux-apps/redmine/pull/26
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-redmine.git
+* Bugs/Notes: Broken. See error below.
+* Date: 8 Aug 2023
 ```
 + echo 'RBY_VER not set - falling back to latest stable Ruby'
 RBY_VER not set - falling back to latest stable Ruby
@@ -227,13 +229,14 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 
 ----- 
 ### \*ABANDONED\* vtigercrm
-~~* Status: ALPHA~~
-~~* Pull request: -~~
-~~* Git command: git clone https://github.com/UncleDan/turnkey-vtigercrm.git~~
-~~* Bugs/Notes: -~~
-~~* Date: 8 Aug 2023~~
+* Status: ALPHA
+* Pull request: -
+* Git command: git clone https://github.com/UncleDan/turnkey-vtigercrm.git
+* Bugs/Notes: -
+* Date: 8 Aug 2023
 -----
-#### MEMO
+
+## MEMO
 ```
 mkdir -p /mybuilds ; mv build/product.iso /mybuilds/$(basename $(pwd))-18-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
 ```

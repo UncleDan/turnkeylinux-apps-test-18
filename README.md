@@ -9,6 +9,14 @@ tags
 * "content management/media"
  
 -----
+### suitecrm
+* Status: Builds OK. Login OK.
+* Versions: SuiteCRM 8.4 / TurnKey Linux 18
+* Pull request: https://github.com/turnkeylinux-apps/suitecrm/pull/13
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-suitecrm.git
+* Bugs/Notes: fixed thanks @JedMeister who made a new pull request. UncleDan pull request merges JedMeister fixes.
+* Date: 25 Sep 2023
+-----
 ### \*BUG\* gitea
 * Status: Builds OK. Runs OK. Login for admin?
 * Versions: Gitea 1.20.2 (as of today) / TurnKey Linux 18RC1
@@ -234,16 +242,9 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 * Bugs/Notes: -
 * Date: 2 Aug 2023
 -----
-### suitecrm
-* Status: Builds OK. Login OK.
-* Pull request: https://github.com/turnkeylinux-apps/suitecrm/pull/13
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/suitecrm.git
-* Bugs/Notes: fixed thanks @JedMeister who made a new pull request. UncleDan pull request merges JedMeister fixes.
-* Date: 3 Aug 2023
------
 #### MEMO
 ```
-mkdir -p /mybuilds ; mv build/product.iso /mybuilds/$(basename $(pwd))-18rc1-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
+mkdir -p /mybuilds ; mv build/product.iso /mybuilds/$(basename $(pwd))-18-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
 ```
 
 Copy of this in repository:

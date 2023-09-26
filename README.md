@@ -1,13 +1,5 @@
 # turnkeylinux-apps-test-18
 
-### * MERGED* suitecrm
-* Status: Builds OK. Login OK.
-* Versions: SuiteCRM 8.4 / TurnKey Linux 18
-* Pull request: merged by @JedMeister via https://github.com/turnkeylinux-apps/suitecrm/pull/14
-* Git command: git clone https://github.com/turnkeylinux-apps/suitecrm.git
-* Bugs/Notes: -
-* Date: 25 Sep 2023
------
 ### \*BUG\* gitea
 * Status: Builds OK. Runs OK. Login for admin?
 * Versions: Gitea 1.20.2 (as of today) / TurnKey Linux 18RC1
@@ -127,6 +119,23 @@
 * Bugs/Notes: -
 * Date: 2 Aug 2023
 -----
+### \*FIXED\* suitecrm
+* Status: Builds OK. Login OK.
+* Versions: SuiteCRM 8.4 / TurnKey Linux 18
+* Pull request: merged by @JedMeister via https://github.com/turnkeylinux-apps/suitecrm/pull/14
+* Git command: git clone https://github.com/turnkeylinux-apps/suitecrm.git
+* Bugs/Notes: -
+* Date: 25 Sep 2023
+-----
+### \*FIXED\* drupal10
+* Status: Builds OK. Login OK.
+* Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18
+* Pull request: fixed and merged by @JedMeister via https://github.com/turnkeylinux-apps/drupal10/pull/9
+* Git command: git clone https://github.com/turnkeylinux-apps/drupal10.git
+* Bugs/Notes: -
+
+* Date: 22 Sep 2023
+-----
 ### \*BROKEN\* canvas
 * Status: Does NOT build.
 * Versions: Canvas x.y.z (as of today) / TurnKey Linux 18RC1
@@ -157,16 +166,6 @@ fablib.installer.Error: Errors encountered installing packages
 make: *** [/usr/share/fab/product.mk:569: build/stamps/root.build] Error 1
 ```
 
------
-### \*BROKEN\* drupal10
-(supersed by https://github.com/turnkeylinux-apps/drupal10/pull/9 already merged)
-* Status: Does NOT build.
-* Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18RC1
-* Pull request: https://github.com/turnkeylinux-apps/drupal9/pull/7
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/drupal10.git
-* Bugs/Notes: Problem seems to be in "the turnkey-drush wrapper/helper script". I will leave this, too hard for me 😅 https://www.turnkeylinux.org/comment/55282#comment-55282
-
-* Date: 7 Aug 2023
 -----
 ### \*BROKEN\* gnusocial
 * Status: Builds OK. PHP error on boot

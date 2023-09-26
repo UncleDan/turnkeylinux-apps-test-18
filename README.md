@@ -1,11 +1,11 @@
 # turnkeylinux-apps-test-18
 
-### suitecrm
+### * MERGED* suitecrm
 * Status: Builds OK. Login OK.
 * Versions: SuiteCRM 8.4 / TurnKey Linux 18
-* Pull request: https://github.com/turnkeylinux-apps/suitecrm/pull/13
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-suitecrm.git
-* Bugs/Notes: fixed thanks @JedMeister who made a new pull request. UncleDan pull request merges JedMeister fixes.
+* Pull request: merged by @JedMeister via https://github.com/turnkeylinux-apps/suitecrm/pull/14
+* Git command: git clone https://github.com/turnkeylinux-apps/suitecrm.git
+* Bugs/Notes: -
 * Date: 25 Sep 2023
 -----
 ### \*BUG\* gitea
@@ -239,6 +239,7 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 ## MEMO
 ```
 mkdir -p /mybuilds ; mv build/product.iso /mybuilds/$(basename $(pwd))-18-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
+mkdir -p /mybuilds ; mv build/product.iso /mybuilds/turnkey-$(basename $(pwd))-18-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
 ```
 
 Copy of this in repository:

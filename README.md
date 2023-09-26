@@ -1,5 +1,13 @@
 # turnkeylinux-apps-test-18
 
+### concrete-cms
+* Status: Builds OK. Login OK.
+* Versions: Concrete CMS 9.2.1 / TurnKey Linux 18.0
+* Pull request: https://github.com/turnkeylinux-apps/concrete-cms/pull/24
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-concrete-cms.git
+* Bugs/Notes: -
+* Date: 26 Sep 2023
+-----
 ### moodle
 * Status: Builds OK. Login OK.
 * Versions: Moodle 4.2.2+ (as of today) / TurnKey Linux 18.0
@@ -15,6 +23,8 @@
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-odoo.git
 * Bugs/Notes: Re-checked still works.
 * Date: 26 Sep 2023
+-----
+## From here: buggy or to be checked against TKL 18.0
 -----
 ### \*BUG\* gitea
 * Status: Builds OK. Runs OK. Login for admin?
@@ -86,14 +96,6 @@
 * Pull request: https://github.com/turnkeylinux-apps/ghost/pull/19
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/ghost.git
 * Bugs/Notes: I couldn't figure out how to login.
-* Date: 3 Aug 2023
------
-### concrete-cms
-* Status: Builds OK. Login OK.
-* Versions: Concrete CMS 9.2.1 / TurnKey Linux 18RC1
-* Pull request: https://github.com/turnkeylinux-apps/concrete-cms/pull/24
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/concrete-cms.git
-* Bugs/Notes: -
 * Date: 3 Aug 2023
 -----
 ### joomla4

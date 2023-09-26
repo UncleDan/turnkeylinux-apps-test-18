@@ -1,5 +1,13 @@
 # turnkeylinux-apps-test-18
 
+### odoo
+* Status: Builds OK. Login OK. Install CRM module OK.
+* Versions: Odoo 16 (from Odoo apt repository) / TurnKey Linux 18
+* Pull request: https://github.com/turnkeylinux-apps/odoo/pull/23
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-odoo.git
+* Bugs/Notes: Re-checkedm still works.
+* Date: 26 Sep 2023
+-----
 ### \*BUG\* gitea
 * Status: Builds OK. Runs OK. Login for admin?
 * Versions: Gitea 1.20.2 (as of today) / TurnKey Linux 18RC1
@@ -104,14 +112,6 @@
 * Bugs/Notes: -
 * Date: 3 Aug 2023
 -----
-### odoo
-* Status: Builds OK. Login OK. Install CRM module OK.
-* Versions: Odoo 16 (from Odoo apt repository) / TurnKey Linux 18RC1
-* Pull request: https://github.com/turnkeylinux-apps/odoo/pull/23
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/odoo.git
-* Bugs/Notes: -
-* Date: 3 Aug 2023
------
 ### espocrm
 * Status: Builds OK. Login OK.
 * Pull request: https://github.com/turnkeylinux-apps/espocrm/pull/22
@@ -119,7 +119,7 @@
 * Bugs/Notes: -
 * Date: 2 Aug 2023
 -----
-### \*FIXED\* suitecrm
+### \*MERGED\* suitecrm
 * Status: Builds OK. Login OK.
 * Versions: SuiteCRM 8.4 / TurnKey Linux 18
 * Pull request: merged by @JedMeister via https://github.com/turnkeylinux-apps/suitecrm/pull/14
@@ -127,7 +127,7 @@
 * Bugs/Notes: -
 * Date: 25 Sep 2023
 -----
-### \*FIXED\* drupal10
+### \*MERGED\* drupal10
 * Status: Builds OK. Login OK.
 * Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18
 * Pull request: fixed and merged by @JedMeister via https://github.com/turnkeylinux-apps/drupal10/pull/9

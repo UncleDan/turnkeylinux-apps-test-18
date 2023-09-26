@@ -1,11 +1,19 @@
 # turnkeylinux-apps-test-18
 
+### moodle
+* Status: Builds OK. Login OK.
+* Versions: Moodle 4.2.2+ (as of today) / TurnKey Linux 18.0
+* Pull request: https://github.com/turnkeylinux-apps/moodle/pull/25
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-moodle.git
+* Bugs/Notes: Re-checked still works.
+* Date: 26 Sep 2023
+-----
 ### odoo
 * Status: Builds OK. Login OK. Install CRM module OK.
 * Versions: Odoo 16 (from Odoo apt repository) / TurnKey Linux 18
 * Pull request: https://github.com/turnkeylinux-apps/odoo/pull/23
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-odoo.git
-* Bugs/Notes: Re-checkedm still works.
+* Bugs/Notes: Re-checked still works.
 * Date: 26 Sep 2023
 -----
 ### \*BUG\* gitea
@@ -104,14 +112,6 @@
 * Bugs/Notes: -
 * Date: 3 Aug 2023
 ---
-### moodle
-* Status: Builds OK. Login OK.
-* Versions: Moodle 4.2.1+ / TurnKey Linux 18RC1
-* Pull request: https://github.com/turnkeylinux-apps/moodle/pull/25
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/moodle.git
-* Bugs/Notes: -
-* Date: 3 Aug 2023
------
 ### espocrm
 * Status: Builds OK. Login OK.
 * Pull request: https://github.com/turnkeylinux-apps/espocrm/pull/22
@@ -121,7 +121,7 @@
 -----
 ### \*MERGED\* suitecrm
 * Status: Builds OK. Login OK.
-* Versions: SuiteCRM 8.4 / TurnKey Linux 18
+* Versions: SuiteCRM 8.4 / TurnKey Linux 18.0
 * Pull request: merged by @JedMeister via https://github.com/turnkeylinux-apps/suitecrm/pull/14
 * Git command: git clone https://github.com/turnkeylinux-apps/suitecrm.git
 * Bugs/Notes: -
@@ -129,7 +129,7 @@
 -----
 ### \*MERGED\* drupal10
 * Status: Builds OK. Login OK.
-* Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18
+* Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18.0
 * Pull request: fixed and merged by @JedMeister via https://github.com/turnkeylinux-apps/drupal10/pull/9
 * Git command: git clone https://github.com/turnkeylinux-apps/drupal10.git
 * Bugs/Notes: -
@@ -237,8 +237,8 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 
 ## MEMO
 ```
-mkdir -p /mybuilds ; mv build/product.iso /mybuilds/$(basename $(pwd))-18-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
-mkdir -p /mybuilds ; mv build/product.iso /mybuilds/turnkey-$(basename $(pwd))-18-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
+mkdir -p /mybuilds ; mv build/product.iso /mybuilds/$(basename $(pwd))-18.0-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
+mkdir -p /mybuilds ; mv build/product.iso /mybuilds/turnkey-$(basename $(pwd))-18.0-bookworm_beta_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
 ```
 
 Copy of this in repository:

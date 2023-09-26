@@ -8,6 +8,14 @@
 * Bugs/Notes: Re-checked still works.
 * Date: 26 Sep 2023
 -----
+### e107
+* Status: Builds OK. Login ???
+* Versions: e107 2.3.2 / TurnKey Linux 18.0
+* Pull request: https://github.com/turnkeylinux-apps/e107/pull/19
+* Git command: git clone --branch 18.0-update-UncleDan https://github.com/UncleDan/turnkey-e107.git
+* Bugs/Notes: -
+* Date: 26 Sep 2023
+-----
 ### espocrm
 * Status: Builds OK. Login OK.
 * Versions: EspoCRM 8.0.2 / TurnKey Linux 18.0

@@ -18,12 +18,20 @@
 -----
 ### odoo
 * Status: Builds OK. Login OK. Install CRM module OK.
-* Versions: Odoo 16 (from Odoo apt repository) / TurnKey Linux 18
+* Versions: Odoo 16 (from Odoo apt repository) / TurnKey Linux 18.0
 * Pull request: https://github.com/turnkeylinux-apps/odoo/pull/23
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-odoo.git
 * Bugs/Notes: Re-checked still works.
 * Date: 26 Sep 2023
 -----
+### phpbb
+* Status: Builds OK. Login OK.
+* Versions: phpBB 3.3.10 / TurnKey Linux 18.0
+* Pull request: https://github.com/turnkeylinux-apps/phpbb/pull/16
+* Git command: git clone --branch 18-update https://github.com/UncleDan/turnkey-phpbb.git
+* Bugs/Notes: -
+* Date: 26 Sep 2023
+---
 ## From here: buggy or to be checked against TKL 18.0
 -----
 ### \*BUG\* gitea
@@ -106,14 +114,6 @@
 * Bugs/Notes: -
 * Date: 3 Aug 2023
 -----
-### phpbb
-* Status: Builds OK. Login OK.
-* Versions: phpBB 3.3.10 / TurnKey Linux 18RC1
-* Pull request: https://github.com/turnkeylinux-apps/phpbb/pull/16
-* Git command: git clone --branch 18-update https://github.com/UncleDan/phpbb.git
-* Bugs/Notes: -
-* Date: 3 Aug 2023
----
 ### espocrm
 * Status: Builds OK. Login OK.
 * Pull request: https://github.com/turnkeylinux-apps/espocrm/pull/22

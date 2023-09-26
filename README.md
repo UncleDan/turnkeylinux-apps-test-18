@@ -5,7 +5,15 @@
 * Versions: Concrete CMS 9.2.1 / TurnKey Linux 18.0
 * Pull request: https://github.com/turnkeylinux-apps/concrete-cms/pull/24
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-concrete-cms.git
-* Bugs/Notes: -
+* Bugs/Notes: Re-checked still works.
+* Date: 26 Sep 2023
+-----
+### espocrm
+* Status: Builds OK. Login OK.
+* Versions: EspoCRM 8.0.2 / TurnKey Linux 18.0
+* Pull request: https://github.com/turnkeylinux-apps/espocrm/pull/22
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-espocrm.git
+* Bugs/Notes: Bump version and Re-checked still works.
 * Date: 26 Sep 2023
 -----
 ### moodle
@@ -113,13 +121,6 @@
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/joomla4.git
 * Bugs/Notes: -
 * Date: 3 Aug 2023
------
-### espocrm
-* Status: Builds OK. Login OK.
-* Pull request: https://github.com/turnkeylinux-apps/espocrm/pull/22
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/espocrm.git
-* Bugs/Notes: -
-* Date: 2 Aug 2023
 -----
 ### \*MERGED\* suitecrm
 * Status: Builds OK. Login OK.

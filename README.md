@@ -47,7 +47,7 @@
 * Git command: git clone --branch 18-update https://github.com/UncleDan/turnkey-phpbb.git
 * Bugs/Notes: -
 * Date: 26 Sep 2023
----
+-----
 ## From here: buggy or to be checked against TKL 18.0
 -----
 ### \*BUG\* gitea
@@ -121,31 +121,6 @@
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/ghost.git
 * Bugs/Notes: I couldn't figure out how to login.
 * Date: 3 Aug 2023
------
-### joomla4
-* Status: Builds OK. Login OK.
-* Versions: Joomla 4.2.9 (as of today) / TurnKey Linux 18RC1
-* Pull request: https://github.com/turnkeylinux-apps/joomla4/pull/2
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/joomla4.git
-* Bugs/Notes: -
-* Date: 3 Aug 2023
------
-### \*MERGED\* suitecrm
-* Status: Builds OK. Login OK.
-* Versions: SuiteCRM 8.4 / TurnKey Linux 18.0
-* Pull request: merged by @JedMeister via https://github.com/turnkeylinux-apps/suitecrm/pull/14
-* Git command: git clone https://github.com/turnkeylinux-apps/suitecrm.git
-* Bugs/Notes: -
-* Date: 25 Sep 2023
------
-### \*MERGED\* drupal10
-* Status: Builds OK. Login OK.
-* Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18.0
-* Pull request: fixed and merged by @JedMeister via https://github.com/turnkeylinux-apps/drupal10/pull/9
-* Git command: git clone https://github.com/turnkeylinux-apps/drupal10.git
-* Bugs/Notes: -
-
-* Date: 22 Sep 2023
 -----
 ### \*BROKEN\* canvas
 * Status: Does NOT build.
@@ -244,6 +219,33 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 * Git command: git clone https://github.com/UncleDan/turnkey-vtigercrm.git
 * Bugs/Notes: -
 * Date: 8 Aug 2023
+-----
+## From here: already merged TKL 18.0
+-----
+### \*MERGED\* joomla4
+* Status: Builds OK. Login OK.
+* Versions: Joomla 4.2.9 (as of today) / TurnKey Linux 18RC1
+* Pull request: https://github.com/turnkeylinux-apps/joomla4/pull/2
+* Git command: git clone https://github.com/turnkeylinux-apps/joomla4.git
+* Bugs/Notes: -
+* Date: 27 Sep 2023
+-----
+### \*MERGED\* suitecrm
+* Status: Builds OK. Login OK.
+* Versions: SuiteCRM 8.4 / TurnKey Linux 18.0
+* Pull request: merged by @JedMeister via https://github.com/turnkeylinux-apps/suitecrm/pull/14
+* Git command: git clone https://github.com/turnkeylinux-apps/suitecrm.git
+* Bugs/Notes: -
+* Date: 25 Sep 2023
+-----
+### \*MERGED\* drupal10
+* Status: Builds OK. Login OK.
+* Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18.0
+* Pull request: fixed and merged by @JedMeister via https://github.com/turnkeylinux-apps/drupal10/pull/9
+* Git command: git clone https://github.com/turnkeylinux-apps/drupal10.git
+* Bugs/Notes: -
+
+* Date: 22 Sep 2023
 -----
 
 ## MEMO

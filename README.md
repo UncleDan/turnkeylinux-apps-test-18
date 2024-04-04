@@ -1,29 +1,5 @@
 # turnkeylinux-apps-test-18
 
-### concrete-cms
-* Status: Builds OK. Login OK.
-* Versions: Concrete CMS 9.2.1 / TurnKey Linux 18.0
-* Pull request: https://github.com/turnkeylinux-apps/concrete-cms/pull/24
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-concrete-cms.git
-* Bugs/Notes: Re-checked still works.
-* Date: 26 Sep 2023
------
-### e107
-* Status: Builds OK. Login OK.
-* Versions: e107 2.3.2 / TurnKey Linux 18.0
-* Pull request: https://github.com/turnkeylinux-apps/e107/pull/19
-* Git command: git clone --branch 18.0-update-UncleDan https://github.com/UncleDan/turnkey-e107.git
-* Bugs/Notes: -
-* Date: 26 Sep 2023
------
-### espocrm
-* Status: Builds OK. Login OK.
-* Versions: EspoCRM 8.0.2 / TurnKey Linux 18.0
-* Pull request: https://github.com/turnkeylinux-apps/espocrm/pull/22
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-espocrm.git
-* Bugs/Notes: Bump version and Re-checked still works.
-* Date: 26 Sep 2023
------
 ### moodle
 * Status: Builds OK. Login OK.
 * Versions: Moodle 4.2.2+ (as of today) / TurnKey Linux 18.0
@@ -49,22 +25,6 @@
 * Date: 26 Sep 2023
 -----
 ## From here: buggy or to be checked against TKL 18.0
------
-### \*BUG\* gitea
-* Status: Builds OK. Runs OK. Login for admin?
-* Versions: Gitea 1.20.2 (as of today) / TurnKey Linux 18RC1
-* Pull request: https://github.com/turnkeylinux-apps/gitea/pull/10
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-gitea.git
-* Bugs/Notes: Works out of the box. I could create a user and push commits, but I could not login as "admin"
-* Date: 8 Aug 2023
------
-### wordpress @OnGle
-* Status: Builds OK. Login OK.
-* Versions: WordPress 6.2.2 (as of today) / TurnKey Linux 18RC1
-* Pull request: https://github.com/OnGle/wordpress/pull/1
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-wordpress.git
-* Bugs/Notes: -
-* Date: 8 Aug 2023
 -----
 ### foswiki
 * Status: Builds OK. Login OK.
@@ -222,6 +182,47 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 -----
 ## From here: already merged TKL 18.0
 -----
+### \*MERGED\* concrete-cms
+* Status: Builds OK. Login OK.
+* Versions: Concrete CMS 9.2.1 / TurnKey Linux 18.0
+* Pull request: https://github.com/turnkeylinux-apps/concrete-cms/pull/24
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-concrete-cms.git
+* Bugs/Notes: -
+* Date: -
+-----
+### \*MERGED\* drupal10
+* Status: Builds OK. Login OK.
+* Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18.0
+* Pull request: fixed and merged by @JedMeister via https://github.com/turnkeylinux-apps/drupal10/pull/9
+* Git command: git clone https://github.com/turnkeylinux-apps/drupal10.git
+* Bugs/Notes: -
+
+* Date: 22 Sep 2023
+-----
+### \*MERGED\* e107
+* Status: Builds OK. Login OK.
+* Versions: e107 2.3.2 / TurnKey Linux 18.0
+* Pull request: https://github.com/turnkeylinux-apps/e107/pull/19
+* Git command: git clone --branch 18.0-update-UncleDan https://github.com/UncleDan/turnkey-e107.git
+* Bugs/Notes: -
+* Date: -
+-----
+### \*MERGED\* espocrm
+* Status: Builds OK. Login OK.
+* Versions: EspoCRM 8.0.2 / TurnKey Linux 18.0
+* Pull request: https://github.com/turnkeylinux-apps/espocrm/pull/22
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-espocrm.git
+* Bugs/Notes: Bump version and Re-checked still works.
+* Date: -
+-----
+### \*MERGED\* gitea
+* Status: Builds OK. Runs OK. Login for admin?
+* Versions: Gitea 1.20.2 (as of today) / TurnKey Linux 18RC1
+* Pull request: https://github.com/turnkeylinux-apps/gitea/pull/10
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-gitea.git
+* Bugs/Notes: Works out of the box. I could create a user and push commits, but I could not login as "admin"
+* Date: 8 Aug 2023
+-----
 ### \*MERGED\* joomla4
 * Status: Builds OK. Login OK.
 * Versions: Joomla 4.2.9 (as of today) / TurnKey Linux 18RC1
@@ -238,14 +239,13 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 * Bugs/Notes: -
 * Date: 25 Sep 2023
 -----
-### \*MERGED\* drupal10
+### \*MERGED\* wordpress @OnGle
 * Status: Builds OK. Login OK.
-* Versions: Drupal 10.x.y (as of today) / TurnKey Linux 18.0
-* Pull request: fixed and merged by @JedMeister via https://github.com/turnkeylinux-apps/drupal10/pull/9
-* Git command: git clone https://github.com/turnkeylinux-apps/drupal10.git
+* Versions: WordPress 6.2.2 (as of today) / TurnKey Linux 18RC1
+* Pull request: https://github.com/OnGle/wordpress/pull/1
+* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-wordpress.git
 * Bugs/Notes: -
-
-* Date: 22 Sep 2023
+* Date: -
 -----
 
 ## MEMO

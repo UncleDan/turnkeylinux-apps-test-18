@@ -250,10 +250,11 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 
 ## MEMO
 ```
+git clone https://github.com/turnkeylinux-apps/myappname
 cd myappname
 make
-mkdir -p /mybuilds ; mv build/product.iso /mybuilds/$(basename $(pwd))-18.0-bookworm_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
-mkdir -p /mybuilds ; mv build/product.iso /mybuilds/turnkey-$(basename $(pwd))-18.0-bookworm_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
+mkdir -p /mybuilds ; mv build/product.iso /mybuilds/$(basename $(pwd))-18.0-bookworm-amd64_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
+mkdir -p /mybuilds ; mv build/product.iso /mybuilds/turnkey-$(basename $(pwd))-18.0-bookworm-amd64_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
 ```
 
 Copy of this in repository:

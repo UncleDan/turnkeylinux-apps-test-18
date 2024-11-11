@@ -1,5 +1,13 @@
 # turnkeylinux-apps-test-18
 
+### gitlab
+* Status: Builds OK. Login OK.
+* Versions: GitLab CE  (as of today) / TurnKey Linux 18.0
+* Pull request: -
+* Git command: git clone --branch master https://github.com/UncleDan/turnkey-gitlab.git
+* Bugs/Notes: Re-checked still works.
+* Date: 11 Nov 2024
+-----
 ### moodle
 * Status: Builds OK. Login OK.
 * Versions: Moodle 4.2.2+ (as of today) / TurnKey Linux 18.0
@@ -253,8 +261,8 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 git clone https://github.com/turnkeylinux-apps/myappname
 cd myappname
 make
-mkdir -p /mybuilds ; mv build/product.iso /mybuilds/$(basename $(pwd))-18.0-bookworm-amd64_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
-mkdir -p /mybuilds ; mv build/product.iso /mybuilds/turnkey-$(basename $(pwd))-18.0-bookworm-amd64_$(date --utc +%Y-%m-%d_%H-%MUTC).iso
+mkdir -p /mybuilds ; mv build/product.iso /mybuilds/$(basename $(pwd))-18.0-bookworm-amd64_$(date -r build/product.iso +%Y-%m-%d_%H-%MUTC).iso
+mkdir -p /mybuilds ; mv build/product.iso /mybuilds/turnkey-$(basename $(pwd))-18.0-bookworm-amd64_$(date -r build/product.iso +%Y-%m-%d_%H-%MUTC).iso
 ```
 
 Copy of this in repository:

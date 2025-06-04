@@ -197,7 +197,7 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 * Bugs/Notes: -
 * Date: 8 Aug 2023
 -----
-## From here: already merged TKL 18.0
+## From here: already merged TKL 18.0/18.1
 -----
 ### \*MERGED\* concrete-cms
 * Status: Builds OK. Login OK.
@@ -234,11 +234,11 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 -----
 ### \*MERGED\* gitea
 * Status: Builds OK. Runs OK. Login for admin?
-* Versions: Gitea 1.20.2 (as of today) / TurnKey Linux 18RC1
+* Versions: Gitea 1.23.8 (as of today) / TurnKey Linux 18.1
 * Pull request: https://github.com/turnkeylinux-apps/gitea/pull/10
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-gitea.git
-* Bugs/Notes: Works out of the box. I could create a user and push commits, but I could not login as "admin"
-* Date: 8 Aug 2023
+* Git command: git clone https://github.com/turnkeylinux-apps/gitea.git
+* Bugs/Notes: Works out of the box.
+* Date: 4 Jun 2025
 -----
 ### \*MERGED\* joomla4
 * Status: Builds OK. Login OK.
@@ -270,8 +270,8 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 git clone https://github.com/turnkeylinux-apps/myappname
 cd myappname
 make
-mkdir -p ../mybuilds ; mv build/product.iso ../mybuilds/$(basename $(pwd))-18.0-bookworm-amd64_$(date -r build/product.iso +%Y-%m-%d_%H-%MUTC).iso
-mkdir -p ../mybuilds ; mv build/product.iso ../mybuilds/turnkey-$(basename $(pwd))-18.0-bookworm-amd64_$(date -r build/product.iso +%Y-%m-%d_%H-%MUTC).iso
+mkdir -p ../mybuilds ; mv build/product.iso ../mybuilds/$(basename $(pwd))-18.1-bookworm-amd64_$(date -r build/product.iso +%Y-%m-%d_%H-%MUTC).iso
+mkdir -p ../mybuilds ; mv build/product.iso ../mybuilds/turnkey-$(basename $(pwd))-18.1-bookworm-amd64_$(date -r build/product.iso +%Y-%m-%d_%H-%MUTC).iso
 ```
 
 Copy of this in repository:

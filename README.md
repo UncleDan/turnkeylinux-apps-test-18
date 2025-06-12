@@ -11,11 +11,11 @@
 
 ### gitlab
 * Status: Builds OK. Login OK.
-* Versions: GitLab CE  (as of today) / TurnKey Linux 18.0
+* Versions: GitLab CE  (as of today) / TurnKey Linux 18.1
 * Pull request: -
-* Git command: git clone --branch master https://github.com/UncleDan/turnkey-gitlab.git
+* Git command: git clone https://github.com/turnkeylinux-apps/gitlab.git
 * Bugs/Notes: Re-checked still works.
-* Date: 11 Nov 2024
+* Date: 4 Jun 2025
 -----
 ### moodle
 * Status: Builds OK. Login OK.

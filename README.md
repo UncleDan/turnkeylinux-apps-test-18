@@ -1,13 +1,5 @@
 # turnkeylinux-apps-test-18
 
-### moodle5 (re-check and fix against 18.1, update major version)
-* Status: Builds OK. Login to ckeck.
-* Versions: Moodle 5.0.1+ (as of today) / TurnKey Linux 18.1
-* Pull request: -
-* Git command: git clone --branch fix-dl-git https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle5
-* Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_500_STABLE.
-* Date: 20 Oct 2025
------
 ### moodle4 (re-check and fix against 18.1, same major version)
 * Status: Builds OK. Login OK.
 * Versions: Versione 4.5.7+ (Build: 20251017) as of today / TurnKey Linux 18.1
@@ -48,6 +40,16 @@
 * Git command: git clone --branch 18-update https://github.com/UncleDan/turnkey-phpbb.git
 * Bugs/Notes: -
 * Date: 26 Sep 2023
+-----
+## From here: buggy or to be checked against TKL 18.1
+-----
+### moodle5 (re-check and fix against 18.1, update major version)
+* Status: Builds OK. Installs OK. 404 on login. Visual problems.
+* Versions: Moodle 5.0.1+ (as of today) / TurnKey Linux 18.1
+* Pull request: -
+* Git command: git clone --branch fix-dl-git https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle5
+* Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_500_STABLE.
+* Date: 20 Oct 2025
 -----
 ## From here: buggy or to be checked against TKL 18.0
 -----

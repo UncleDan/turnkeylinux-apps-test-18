@@ -1,5 +1,21 @@
 # turnkeylinux-apps-test-18
 
+### moodle5 (re-check and fix against 18.1, update major version)
+* Status: Builds OK. Login to ckeck.
+* Versions: Moodle 5.0.1+ (as of today) / TurnKey Linux 18.1
+* Pull request: -
+* Git command: git clone --branch fix-dl-git https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle5
+* Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_500_STABLE.
+* Date: 20 Oct 2025
+-----
+### moodle4 (re-check and fix against 18.1, same major version)
+* Status: Builds OK. Login OK.
+* Versions: Versione 4.5.7+ (Build: 20251017) / TurnKey Linux 18.1
+* Pull request: [-](https://github.com/turnkeylinux-apps/moodle/pull/27)
+* Git command: git clone --branch update-moodle4-git-18.1 https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle4
+* Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_405_STABLE.
+* Date: 20 Oct 2025
+-----
 ### lamp
 * Status: Builds OK. Login OK.
 * Versions: LAMP stack / TurnKey Linux 18.0
@@ -16,14 +32,6 @@
 * Git command: git clone https://github.com/turnkeylinux-apps/gitlab.git
 * Bugs/Notes: Re-checked still works.
 * Date: 4 Jun 2025
------
-### moodle
-* Status: Builds OK. Login OK.
-* Versions: Moodle 4.2.2+ (as of today) / TurnKey Linux 18.0
-* Pull request: https://github.com/turnkeylinux-apps/moodle/pull/25
-* Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-moodle.git
-* Bugs/Notes: Re-checked still works.
-* Date: 26 Sep 2023
 -----
 ### odoo
 * Status: Builds OK. Login OK. Install CRM module OK.

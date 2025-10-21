@@ -3,7 +3,7 @@
 ### moodle4 (re-check and fix against 18.1, same major version)
 * Status: Builds OK. Login OK.
 * Versions: Versione 4.5.7+ (Build: 20251017) as of today / TurnKey Linux 18.1
-* Pull request: [-](https://github.com/turnkeylinux-apps/moodle/pull/27)
+* Pull request: https://github.com/turnkeylinux-apps/moodle/pull/27
 * Git command: git clone --branch update-moodle4-git-18.1 https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle4
 * Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_405_STABLE.
 * Date: 20 Oct 2025

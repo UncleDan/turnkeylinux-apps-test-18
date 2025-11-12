@@ -1,9 +1,17 @@
 # turnkeylinux-apps-test-18
 
+### gitea
+* Status: Builds OK. Still can't login :-(
+* Versions: Gitea 1.25.1 (as of today) / TurnKey Linux 18.1
+* Pull request: 
+* Git command: git clone https://github.com/UncleDan/turnkey-gitea.git -b turnkey-gitea-test-18.1
+* Bugs/Notes: Works out of the box, only updated versions in docs.
+* Date: 12 Nov 2025
+-----
 ### moodle5 (re-check and fix against 18.1, major version bump)
 * Status: Builds OK. Login OK.
 * Versions: Moodle 5.0.1+ (as of today) / TurnKey Linux 18.1
-* Pull request: [-](https://github.com/turnkeylinux-apps/moodle/pull/28)
+* Pull request: https://github.com/turnkeylinux-apps/moodle/pull/28
 * Git command: git clone --branch fix-dl-git https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle5
 * Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_501_STABLE.
 * Date: 29 Oct 2025
@@ -239,14 +247,6 @@ make: *** [/usr/share/fab/product.mk:569: build/stamps/root.patched] Error 1
 * Git command: git clone --branch 18-update-UncleDan https://github.com/UncleDan/turnkey-espocrm.git
 * Bugs/Notes: Bump version and Re-checked still works.
 * Date: -
------
-### \*MERGED\* gitea
-* Status: Builds OK. Runs OK. Login for admin?
-* Versions: Gitea 1.23.8 (as of today) / TurnKey Linux 18.1
-* Pull request: https://github.com/turnkeylinux-apps/gitea/pull/10
-* Git command: git clone https://github.com/turnkeylinux-apps/gitea.git
-* Bugs/Notes: Works out of the box.
-* Date: 4 Jun 2025
 -----
 ### \*MERGED\* joomla4
 * Status: Builds OK. Login OK.

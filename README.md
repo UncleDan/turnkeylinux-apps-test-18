@@ -3,9 +3,9 @@
 ### gitea
 * Status: Builds OK. Still can't login :-(
 * Versions: Gitea 1.25.1 (as of today) / TurnKey Linux 18.1
-* Pull request: 
+* Pull request: https://github.com/turnkeylinux-apps/gitea/pull/16
 * Git command: git clone https://github.com/UncleDan/turnkey-gitea.git -b turnkey-gitea-test-18.1
-* Bugs/Notes: Works out of the box, only updated versions in docs.
+* Bugs/Notes: Works out of the box, only updated versions in docs. Still can't login as "gitea" admin.
 * Date: 12 Nov 2025
 -----
 ### moodle5 (re-check and fix against 18.1, major version bump)

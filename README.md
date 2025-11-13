@@ -1,6 +1,6 @@
 # turnkeylinux-apps-test-18
 
-### gitea [Test ISO](https://github.com/UncleDan/turnkey-gitea/releases/tag/v18.1-bookworm-amd64_2025-11-12_11-31UTC)
+### gitea ➡️ [Test ISO](https://github.com/UncleDan/turnkey-gitea/releases/tag/v18.1-bookworm-amd64_2025-11-12_11-31UTC)
 * Status: Builds OK. Still can't login :-(
 * Versions: Gitea 1.25.1 (as of today) / TurnKey Linux 18.1
 * Pull request: https://github.com/turnkeylinux-apps/gitea/pull/16

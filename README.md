@@ -1,5 +1,13 @@
 # turnkeylinux-apps-test-18
 
+### moodle5  ➡️ [Test ISO](https://github.com/UncleDan/turnkey-moodle/releases/tag/v5-18.1-bookworm-amd64_2025-11-21_14-25UTC)
+* Status: Builds OK. Login OK.
+* Versions: 5.1+ (Build: 20251121) as of today / TurnKey Linux 18.1
+* Pull request: 
+* Git command: git clone --branch turnkey-moodle5-18.1-RC1 https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle5
+* Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_501_STABLE.
+* Date: 21 Nov 2025
+-----
 ### moodle4  ➡️ [Test ISO](https://github.com/UncleDan/turnkey-moodle/releases/tag/v18.1-bookworm-amd64_2025-11-21_13-01UTC)
 * Status: Builds OK. Login OK.
 * Versions: Moodle 4.5.7+ (Build: 20251121) as of today / TurnKey Linux 18.1
@@ -15,14 +23,6 @@
 * Git command: git clone https://github.com/UncleDan/turnkey-gitea.git -b turnkey-gitea-test-18.1
 * Bugs/Notes: Works out of the box, only updated versions in docs. Still can't login as "gitea" admin.
 * Date: 12 Nov 2025
------
-### moodle5 (re-check and fix against 18.1, major version bump)
-* Status: Builds OK. Login OK.
-* Versions: Moodle 5.0.1+ (as of today) / TurnKey Linux 18.1
-* Pull request: https://github.com/turnkeylinux-apps/moodle/pull/28
-* Git command: git clone --branch fix-dl-git https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle5
-* Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_501_STABLE.
-* Date: 29 Oct 2025
 -----
 ### lamp
 * Status: Builds OK. Login OK.

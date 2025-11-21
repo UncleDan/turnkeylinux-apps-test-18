@@ -1,5 +1,13 @@
 # turnkeylinux-apps-test-18
 
+### moodle4  ➡️ [Test ISO](https://github.com/UncleDan/turnkey-moodle/releases/tag/v18.1-bookworm-amd64_2025-11-21_13-01UTC)
+* Status: Builds OK. Login OK.
+* Versions: Moodle 4.5.7+ (Build: 20251121) as of today / TurnKey Linux 18.1
+* Pull request: https://github.com/turnkeylinux-apps/moodle/pull/29
+* Git command: git clone --branch turnkey-moodle4-18.1-RC1 https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle4
+* Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_405_STABLE.
+* Date: 21 Nov 2025
+-----
 ### gitea ➡️ [Test ISO](https://github.com/UncleDan/turnkey-gitea/releases/tag/v18.1-bookworm-amd64_2025-11-12_11-31UTC)
 * Status: Builds OK. Still can't login :-(
 * Versions: Gitea 1.25.1 (as of today) / TurnKey Linux 18.1
@@ -15,14 +23,6 @@
 * Git command: git clone --branch fix-dl-git https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle5
 * Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_501_STABLE.
 * Date: 29 Oct 2025
------
-### moodle4 (re-check and fix against 18.1, same major version)
-* Status: Builds OK. Login OK.
-* Versions: Versione 4.5.7+ (Build: 20251017) as of today / TurnKey Linux 18.1
-* Pull request: https://github.com/turnkeylinux-apps/moodle/pull/27
-* Git command: git clone --branch update-moodle4-git-18.1 https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle4
-* Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_405_STABLE.
-* Date: 28 Oct 2025
 -----
 ### lamp
 * Status: Builds OK. Login OK.

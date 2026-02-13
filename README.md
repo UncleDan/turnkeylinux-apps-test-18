@@ -9,10 +9,10 @@
 * Date: 21 Nov 2025
 -----
 ### moodle4  ➡️ [Test ISO](https://github.com/UncleDan/turnkey-moodle/releases/tag/v18.1-bookworm-amd64_2025-11-21_13-01UTC)
-* Status: Builds OK. Login OK.
+* Status: *NEEDS A FIX for MySql performance*
 * Versions: Moodle 4.5.7+ (Build: 20251121) as of today / TurnKey Linux 18.1
 * Pull request: https://github.com/turnkeylinux-apps/moodle/pull/29
-* Git command: git clone --branch turnkey-moodle4-18.1-RC1 https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle4
+* Git command: git clone --branch turnkey-moodle4-18.1-RC2 https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle4
 * Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_405_STABLE.
 * Date: 21 Nov 2025
 -----

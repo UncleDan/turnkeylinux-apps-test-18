@@ -13,15 +13,15 @@
 
 # turnkeylinux-apps - Test 18.1
 
-### mattermost  ➡️ [Test ISO](https://github.com/UncleDan/turnkey-moodle/releases/tag/v18.1-bookworm-amd64_2025-11-21_13-01UTC)
+### mattermost  ➡️ [Test ISO](https://github.com/UncleDan/turnkey-mattermost/releases/tag/turnkey-mattermost-18.1-RC1)
 * Status: Builds OK. Login OK.
 * Versions: Moodle 11.3.1 as of today / TurnKey Linux 18.1
-* Pull request: -
+* Pull request: https://github.com/turnkeylinux-apps/mattermost/pull/16
 * Git command: git clone --branch turnkey-mattermost-18.1-RC1 https://github.com/UncleDan/turnkey-mattermost.git
 * Bugs/Notes: -
 * Date: 13 Feb 2026
 -----
-### moodle4  ➡️ [Test ISO](https://github.com/UncleDan/turnkey-moodle/releases/tag/v18.1-bookworm-amd64_2025-11-21_13-01UTC)
+### moodle4  ➡️ [Test ISO](https://github.com/UncleDan/)
 * Status: *NEEDS A FIX for MySql performance*
 * Versions: Moodle 4.5.7+ (Build: 20251121) as of today / TurnKey Linux 18.1
 * Pull request: https://github.com/turnkeylinux-apps/moodle/pull/29

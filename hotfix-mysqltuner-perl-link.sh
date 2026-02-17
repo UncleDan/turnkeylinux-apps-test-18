@@ -1,5 +1,7 @@
 #!/bin/bash
 
+############################################################################################## HOTFIX SCRIPT - BEGIN ###
+
 # --- HOTFIX CONFIGURATION ---
 BUG_NAME="MySQLTuner-perl link"
 ### Upstream bug: https://github.com/major/MySQLTuner-perl/issues/867
@@ -76,3 +78,6 @@ else
     echo "⚠️  No action: The wrong string was not found in the file."
     exit 0
 fi
+
+################################################################################################ HOTFIX SCRIPT - END ###
+

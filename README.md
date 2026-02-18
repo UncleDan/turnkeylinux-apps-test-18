@@ -1,19 +1,53 @@
+```
+ @@@@@@    @@@@@@@@    @@@@@@     @@@@@@                                   
+@@@@@@@@  @@@@@@@@@@  @@@@@@@@   @@@@@@@                                   
+     @@@  @@!   @@@@       @@@  !@@                                        
+    @!@   !@!  @!@!@      @!@   !@!                                        
+   !!@    @!@ @! !@!     !!@    !!@@!@!                                    
+  !!:     !@!!!  !!!    !!:     @!!@!!!!                                   
+ !:!      !!:!   !!!   !:!      !:!  !:!                                   
+:!:       :!:    !:!  :!:       :!:  !:!                                   
+:: :::::  ::::::: ::  :: :::::  :::: :::                                   
+:: : :::   : : :  :   :: : :::   :: : :                                    
+```
+
 # turnkeylinux-apps - Test 18.1
+
+### mattermost  ➡️ [Test ISO](https://github.com/UncleDan/turnkey-mattermost/releases/tag/turnkey-mattermost-18.1-RC1)
+* Status: Builds OK. Login OK.
+* Versions: Moodle 11.3.1 as of today / TurnKey Linux 18.1
+* Pull request: https://github.com/turnkeylinux-apps/mattermost/pull/16
+* Git command: git clone --branch turnkey-mattermost-18.1-RC1 https://github.com/UncleDan/turnkey-mattermost.git
+* Bugs/Notes: -
+* Date: 13 Feb 2026
+-----
+### moodle4  ➡️ [Test ISO](https://github.com/UncleDan/)
+* Status: *NEEDS A FIX for MySql performance*
+* Versions: Moodle 4.5.7+ (Build: 20251121) as of today / TurnKey Linux 18.1
+* Pull request: https://github.com/turnkeylinux-apps/moodle/pull/29
+* Git command: git clone --branch turnkey-moodle4-18.1-RC2 https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle4
+* Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_405_STABLE.
+* Date: 13 Feb 2026
+
+```                                                                           
+@@@@@@@   @@@@@@@   @@@@@@@@  @@@  @@@  @@@   @@@@@@   @@@  @@@   @@@@@@   
+@@@@@@@@  @@@@@@@@  @@@@@@@@  @@@  @@@  @@@  @@@@@@@@  @@@  @@@  @@@@@@@   
+@@!  @@@  @@!  @@@  @@!       @@!  @@@  @@!  @@!  @@@  @@!  @@@  !@@       
+!@!  @!@  !@!  @!@  !@!       !@!  @!@  !@!  !@!  @!@  !@!  @!@  !@!       
+@!@@!@!   @!@!!@!   @!!!:!    @!@  !@!  !!@  @!@  !@!  @!@  !@!  !!@@!!    
+!!@!!!    !!@!@!    !!!!!:    !@!  !!!  !!!  !@!  !!!  !@!  !!!   !!@!!!   
+!!:       !!: :!!   !!:       :!:  !!:  !!:  !!:  !!!  !!:  !!!       !:!  
+:!:       :!:  !:!  :!:        ::!!:!   :!:  :!:  !:!  :!:  !:!      !:!   
+ ::       ::   :::   :: ::::    ::::     ::  ::::: ::  ::::: ::  :::: ::   
+ :         :   : :  : :: ::      :      :     : :  :    : :  :   :: : :    
+```
 
 ### moodle5  ➡️ [Test ISO](https://github.com/UncleDan/turnkey-moodle/releases/tag/v5-18.1-bookworm-amd64_2025-11-21_14-25UTC)
 * Status: Builds OK. Login OK.
 * Versions: 5.1+ (Build: 20251121) as of today / TurnKey Linux 18.1
-* Pull request: 
+* Pull request: -
 * Git command: git clone --branch turnkey-moodle5-18.1-RC1 https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle5
 * Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_501_STABLE.
-* Date: 21 Nov 2025
------
-### moodle4  ➡️ [Test ISO](https://github.com/UncleDan/turnkey-moodle/releases/tag/v18.1-bookworm-amd64_2025-11-21_13-01UTC)
-* Status: Builds OK. Login OK.
-* Versions: Moodle 4.5.7+ (Build: 20251121) as of today / TurnKey Linux 18.1
-* Pull request: https://github.com/turnkeylinux-apps/moodle/pull/29
-* Git command: git clone --branch turnkey-moodle4-18.1-RC1 https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle4
-* Bugs/Notes: Re-checked, works downloading sources via git branch MOODLE_405_STABLE.
 * Date: 21 Nov 2025
 -----
 ### gitea ➡️ [Test ISO](https://github.com/UncleDan/turnkey-gitea/releases/tag/v18.1-bookworm-amd64_2025-11-12_11-31UTC)

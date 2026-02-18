@@ -16,7 +16,7 @@
 ### moodle5  ➡️ [Test ISO](https://github.com/UncleDan/turnkey-moodle/releases/tag/v5-18.1-RC2)
 * Status: Builds OK. Login OK.
 * Versions: Moodle Version 5.1.3+ (Build: 20260217) as of today / TurnKey Linux 18.1
-* Pull request: -
+* Pull request: https://github.com/turnkeylinux-apps/moodle/pull/32
 * Git command: git clone --branch turnkey-moodle5-18.1-RC2 https://github.com/UncleDan/turnkey-moodle.git turnkey-moodle5
 * Bugs/Notes: *Hotfix for MySql performance needed on TKLdev, for example https://github.com/UncleDan/turnkeylinux-apps-test-18/blob/retest-moodle-26/hotfix-mysqltuner-perl-link.sh* Re-checked, works downloading sources via git branch MOODLE_501_STABLE.
 * Date: 18 Feb 2026

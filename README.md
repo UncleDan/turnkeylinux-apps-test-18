@@ -13,14 +13,14 @@
 
 # turnkeylinux-apps - Test 18.1
 
-### gitea ➡️ [Test ISO](https://github.com/UncleDan/)
+### gitea ➡️ [Test ISO](https://github.com/UncleDan/turnkey-gitea/releases/tag/v18.1-RC1)
 * Status: Builds OK. Still can't login :-(
 * Versions: Gitea 1.25.4 (as of today) / TurnKey Linux 18.1
 * Pull request: https://github.com/turnkeylinux-apps/gitea/pull/17
 * Git command: git clone https://github.com/UncleDan/turnkey-gitea.git -b turnkey-gitea-18.1-RC1
 * Bugs/Notes: Works out of the box, only updated versions in docs. Still can't login as "gitea" admin.
 * Date: 18 Feb 2026
-
+-----
 ### moodle5  ➡️ [Test ISO](https://github.com/UncleDan/turnkey-moodle/releases/tag/v5-18.1-RC2)
 * Status: Builds OK. Login OK.
 * Versions: Moodle Version 5.1.3+ (Build: 20260217) as of today / TurnKey Linux 18.1

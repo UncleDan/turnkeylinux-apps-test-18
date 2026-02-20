@@ -17,7 +17,7 @@
 * Status: Builds OK. Still can't login :-(
 * Versions: Gitea 1.25.4 (as of today) / TurnKey Linux 18.1
 * Pull request: https://github.com/turnkeylinux-apps/gitea/pull/17
-* Git command: git clone https://github.com/UncleDan/turnkey-gitea.git -b turnkey-gitea-18.1-b1.1
+* Git command: git clone https://github.com/UncleDan/turnkey-gitea.git -b turnkey-gitea-18.1-RC1
 * Bugs/Notes: Works out of the box, only updated versions in docs. Still can't login as "gitea" admin.
 * Date: 18 Feb 2026
 

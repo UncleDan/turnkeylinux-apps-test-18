@@ -1,2 +1,1 @@
-# turnkeylinux-apps-test-18
-turnkeylinux-apps-test-18
+# Moved to [https://github.com/turnkeylinux-apps-test/turnkeylinux-apps-test.github.io](https://github.com/turnkeylinux-apps-test/turnkeylinux-apps-test.github.io).
